@@ -13,7 +13,7 @@ async-executor = { version = "1.13.1", optional = true }
 futures = "0.3.31"
 glib = { version = "0.20.6", optional = true }
 thiserror = { workspace = true }
-tokio = { version = "1.41", optional = true, default-features = false, features = [
+tokio = { version = "1.44", optional = true, default-features = false, features = [
   "rt",
 ] }
 tracing = { version = "0.1.41", optional = true }
@@ -21,7 +21,7 @@ wasm-bindgen-futures = { version = "0.4.50", optional = true }
 
 [dev-dependencies]
 futures-lite = { version = "2.6.0", default-features = false }
-tokio = { version = "1.41", default-features = false, features = [
+tokio = { version = "1.44", default-features = false, features = [
   "rt",
   "macros",
   "time",
