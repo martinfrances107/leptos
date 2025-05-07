@@ -21,7 +21,7 @@ dashmap = "6.1"
 send_wrapper = "0.6.0"
 
 [dev-dependencies]
-tokio = { version = "1.43", features = ["rt-multi-thread", "macros"] }
+tokio = { version = "1.44", features = ["rt-multi-thread", "macros"] }
 tokio-test = { version = "0.4.4" }
 any_spawner = { workspace = true, features = ["futures-executor", "tokio"] }
 reactive_graph = { workspace = true, features = ["effects"] }
